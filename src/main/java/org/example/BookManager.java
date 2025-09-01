@@ -17,7 +17,7 @@ public class BookManager {
         }
         Buku.add(buku);
     }
-// INI CONTOH BERUBAH
+// INI CONTOH BERUBAH 2
     public boolean removeBook(String judul) {
         if (judul == null || judul.trim().isEmpty()) {
             throw new IllegalArgumentException("Judul tidak boleh kosong");
